@@ -460,7 +460,7 @@ def draw_boxes(filename, v_boxes, v_labels, v_scores):
         cv2.putText(data1,label,(x1,y1+30),cv2.FONT_HERSHEY_COMPLEX_SMALL,2,1,2)
         #plt.text(x1, y1, label, color='red')
     #plt.savefig("krishna.jpg",dpi=200)
-    cv2.imwrite('Mylakrishna.jpg',data1)
+    cv2.imwrite('krishna.jpg',data1)
     # show the plot
     #plt.show()
     return data1
@@ -579,8 +579,8 @@ while success:
   #for i in range(len(v_boxes)): #print(v_labels[i], v_scores[i])
   # draw what we found
   image=draw_boxes(filename1, v_boxes, v_labels, v_scores) 
-  #image=cv2.imread('mylakrishna.jpg') 
-  #image=plt.imread('mylakrishna.jpg')
+  #image=cv2.imread('krishna.jpg') 
+  #image=plt.imread('krishna.jpg')
   #plt.imshow(image) 
   #plt.xticks([1]),plt.yticks([1]) 
   #plt.show()
