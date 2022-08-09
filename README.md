@@ -1,6 +1,6 @@
 # Automatic_Video_Annotation
 The project was Automatic Video Annotation collaborated with Tata Consultancy Services (TCS) as Tata Consultancy Remote Internship. 
-Automatic annotation of the video refers to the extraction of the information about the video automatically. 
+Automatic annotation of the video refers to the extraction of the information about the objects in video automatically. 
 Here in the project, we approached Deep Learning which is based on Convolutional Neural Networks (CNN) and YOLO Models for Object Recognition rather than approaching Machine learning using Support Vector Machine (SVM). 
 Though CNN accuracy is low compared to SVM, the speed of CNN is effective which is more preferable for security. For real-time Data vision, we enhanced the huge open-source library called Open CV Packages contains more than 2500 optimized algorithms and the language used for coding is Python and Pascal Dataset is used which contains 20 classes. 
 Automatic Video Annotation has been proposed to act as a mediator in the applications of content-based video Retrieval (CBVR) and video management. This study is based on the machine learning technique to annotate videos. Hence, the key idea of Automatic Video Annotation (AVA) is to construct the model(s) through automatic learning semantic concepts from many videos (even shots or key-frames), then utilize these concept models(s) for predicting appropriate annotation/label for any new video. 
